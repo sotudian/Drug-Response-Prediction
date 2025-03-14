@@ -1,9 +1,9 @@
-%******************************************************************************************
-%******************************************************************************************
+%***********************************************************************************************
+%***********************************************************************************************
 % Matlab implementation of Drug response prediction algorithm introduced in the paper 
 % "Machine Learning for Pharmacogenomics and Personalized Medicine: A Ranking Model for
 % Drug Sensitivity Prediction" by Shahabeddin Sotudian  and Ioannis Ch.Paschalidis.
-%******************************************************************************************
+%***********************************************************************************************
 
 function [CI,SCI,AHat5,AHat10] = Performance_Metrics_Func(True_Rank,Predicted_Rank,sesetive_drugs)
 % concordance index
